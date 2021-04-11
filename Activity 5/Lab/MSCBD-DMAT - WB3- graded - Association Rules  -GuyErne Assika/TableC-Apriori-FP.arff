@@ -1,0 +1,19 @@
+@relation 'Lab5-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NominalToString-Clast-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.NumericToBinary-Rfirst-last-weka.filters.unsupervised.attribute.NumericToBinary-Rfirst-last-weka.filters.unsupervised.attribute.Remove-R11'
+
+@attribute A_binarized {0,1}
+@attribute B_binarized {0,1}
+@attribute C_binarized {0,1}
+@attribute D_binarized {0,1}
+@attribute E_binarized {0,1}
+@attribute F_binarized {0,1}
+@attribute G_binarized {0,1}
+@attribute H_binarized {0,1}
+@attribute I_binarized {0,1}
+@attribute J_binarized {0,1}
+
+@data
+{0 1,1 1,2 1,3 1,4 1,5 1}
+{1 1,2 1,3 1,4 1,5 1,6 1}
+{0 1,3 1,4 1,7 1}
+{0 1,3 1,5 1,8 1,9 1}
+{1 1,3 1,4 1}
